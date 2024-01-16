@@ -1,0 +1,110 @@
+.menu {
+  display: inline-block;
+  position: relative;
+}
+
+.menu:hover .dropdown {
+  display: block;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.dropdown a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  padding: 5px;
+}
+
+form {
+  padding: 20px;
+}
+
+/* Apply Flexbox layout to the container element */
+.container {
+  position: fixed;
+  left:0;
+  top: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.927);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 5px solid black;
+  padding: 10px;
+  margin: 10px;
+  height: 120px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+fieldset {
+  border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  width: auto;
+  padding: 10px;
+  margin:2%;
+  margin-top: 200px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+legend {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  font-weight: 500;
+  border-radius: 10px;
+  font-weight: 18px;
+}
+
+input {
+  width: 80px;
+  height: 30px;
+  font-size: 18px;
+}
+
+select {
+  width: 300px;
+  font-size: 18px;
+  height: 30px;
+}
+
+.boxRight {
+  position: fixed;
+  border: 5px solid rgb(163, 117, 43);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  height: 120px;
+  width: 50%;
+  overflow: auto;
+  top:0;
+  right: 0;
+  width: 25%;
+  background-color: #ffffffcf;
+}
+
+
+
+#box {
+  border: 5px solid rgb(163, 117, 43);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+strong {
+  font-size: 20px;
+}
